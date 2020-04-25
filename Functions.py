@@ -69,7 +69,7 @@ def plane_ride_cost(city):
     print ("Wrong city")
 	
 ## ორჯერ რატომ გაქვს ერთიდაიგივე ფუნქციები?	
-def hotel_cost(nights):
+"""def hotel_cost(nights):
   return 140 * nights
 
 def plane_ride_cost(city):
@@ -81,6 +81,7 @@ def plane_ride_cost(city):
     return 222
   elif city == "Los Angeles":
     return 475
+"""
 
 def rental_car_cost(days):
   cost = days * 40
