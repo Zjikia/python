@@ -45,13 +45,15 @@ def by_three(number):
 def shut_down(s):
   if s == "yes":
     return "Shutting down"
-    print ("Shutting down")
+    ##print ("Shutting down")  ## აქამდე არასდროს მოაღწევს, იმიტომ რომ 47 ხაზზე აბრუნებ მნიშვნელობას.
   elif s == "no":
     return "Shutdown aborted"
   else:
     return "Sorry"
 #shut_down('yes')
-print (shut_down)
+#print (shut_down)  ## აქ არგუმენტს არ აწვდი ამიტომ თავად ფუნქციას გიბრუნებს. 
+print (shut_down("yes"))
+## return და print თუ ვერ გაიგე აქ. return აბრუნებს მნიშვნელობას და სხვა ცვლადში შეგიძლია ჩაწერო ან print-ით დაბეჭდო ეკრანზე.
 
 
 def hotel_cost(nights):
@@ -103,6 +105,6 @@ print (trip_cost("Los Angeles", 5, 800)) #აქ ვიძახებთ trip_c
 100
 10 to the power of 4 is 10000.
 7
-<function shut_down at 0x000002D5935E8D08>
+Shutting down
 2015
 """
