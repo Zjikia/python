@@ -11,8 +11,8 @@ def french_soldier():
         return True
     else:             
         return False        # Make sure this returns False
-print black_knight()
-print french_soldier()
+print (black_knight())
+print (french_soldier())
 
 
 # Complete the if and elif statements!
@@ -29,33 +29,33 @@ def grade_converter(grade):
         return "F"
       
 # This should print an "A"      
-print grade_converter(92)
+print (grade_converter(92))
 
 # This should print a "C"
-print grade_converter(70)
+print (grade_converter(70))
 
 # This should print an "F"
-print grade_converter(61)
+print (grade_converter(61))
 
 
-print 'Welcome to the Pig Latin Translator!'
+print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word: ")
+original = input("Enter a word: ")  ## Starting with Python 3, raw_input() was renamed to input().
 if len(original) > 0:
-  print original
+  print (original)
   
 else:
-  print "empty"
+  print ("empty")
   
 
 
-print 'Welcome to the Pig Latin Translator!'
+print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word: ")
-if len(original) > 0 and original.isalpha():
-  print original
+original = input("Enter a word: ")  ## Starting with Python 3, raw_input() was renamed to input().
+if len(original) > 0 and original.isalpha():   ## The isalpha() methods returns “True” if all characters in the string are alphabets, Otherwise, It returns “False”.
+  print (original)
   
 else:
-  print "empty"
+  print ("empty")
