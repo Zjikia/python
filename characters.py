@@ -1,4 +1,7 @@
+# List of characters you entered.
 
-a = "Anywordhere"
+a = input("Anywordhere: ")
+
 chars = list(a)
+
 print(chars)
